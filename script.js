@@ -1,4 +1,4 @@
-let elem = document.querySelector(".element")
+let elem = document.querySelectorAll(".element")
 
 elem.forEach(function(val){    
     val.addEventListener("mouseenter", function(){
